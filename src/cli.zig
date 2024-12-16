@@ -1,6 +1,6 @@
 const std = @import("std");
-const compress = @import("compress");
-const decompress = @import("decompress");
+const compress = @import("compress.zig");
+const decompress = @import("decompress.zig");
 
 pub fn handle(args: [][]const u8) !void {
     if (args.len < 2) {
