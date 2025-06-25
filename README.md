@@ -4,9 +4,9 @@
 
 ## **Features**
 
-**Run-Length Encoding (RLE):** Compresses consecutive repeated characters.
-**Dictionary-based Compression:** Replaces common sequences like `the`, `and`, and spaces with tokens to save space.
-**Decompression:** Reverses the compression to recover the original file.
+* **Run-Length Encoding (RLE):** Compresses consecutive repeated characters.
+* **Dictionary-based Compression:** Replaces common sequences like `the`, `and`, and spaces with tokens to save space.
+* **Decompression:** Reverses the compression to recover the original file.
 
 ## **Build Instructions**
 
