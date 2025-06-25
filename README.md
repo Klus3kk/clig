@@ -1,19 +1,18 @@
 # clig
 
-**CLIG** is a command-line tool for compressing and decompressing text files using a combination of **Run-Length Encoding (RLE)** and **dictionary-based compression**. It efficiently reduces file size for repetitive and common text patterns.
+**clig** is a command-line tool for compressing and decompressing text files using a combination of **Run-Length Encoding (RLE)** and **dictionary-based compression**. It reduces file size for repetitive and common text patterns.
 
 ## **Features**
 
-1. **Run-Length Encoding (RLE):** Compresses consecutive repeated characters.
-2. **Dictionary-based Compression:** Replaces common sequences like `the`, `and`, and spaces with tokens to save space.
-3. **Command-Line Interface (CLI):** Intuitive and easy-to-use text-based interface.
-4. **Decompression:** Reverses the compression to recover the original file.
+**Run-Length Encoding (RLE):** Compresses consecutive repeated characters.
+**Dictionary-based Compression:** Replaces common sequences like `the`, `and`, and spaces with tokens to save space.
+**Decompression:** Reverses the compression to recover the original file.
 
 ## **Build Instructions**
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/clig.git
+   git clone https://github.com/Klus3kk/clig.git
    cd clig
    ```
 
@@ -77,11 +76,3 @@ To decompress a file, use:
    Original size: 234 bytes
    Decompressed size: 242 bytes
    ```
-
-## **Testing**
-
-Run all tests using:
-```bash
-zig build test
-```
-
